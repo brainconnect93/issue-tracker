@@ -1,7 +1,9 @@
-import Image from 'next/image'
+import Link from "next/link";
 
-export default function Home() {
+export default function Nav() {
   return (
-    <div>Hello World!</div>
+    <div>
+      <h1>Hello WOrld!</h1>
+    </div>
   )
 }
