@@ -15,11 +15,11 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center justify-between">
-        <Link href="/">
+      <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
+        <Link href="/" className="pr-14">
           <AiFillBug />
         </Link>
-        <ul className="flex space-x-10">
+        <ul className="flex space-x-6 justify-center">
           {link.map((link) => (
             <Link
               key={link.href}
